@@ -1,5 +1,6 @@
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import HeaderTabs from "./HeaderTabs.tsx";
+import MoreButton from "../MoreButton/MoreButton.tsx";
 
 const Header = () => {
   return (
@@ -9,6 +10,9 @@ const Header = () => {
         sx={{ "&.MuiSvgIcon-root": { fontSize: "48px" } }}
       />
       <HeaderTabs />
+      <div>
+        <MoreButton />
+      </div>
     </div>
   );
 };

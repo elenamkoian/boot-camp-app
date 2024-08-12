@@ -9,7 +9,6 @@ const NAV_BAR_ITEMS = [
   { title: "Home", href: "/" },
   { title: "Contact", href: "/contact" },
   { title: "About", href: "/about" },
-  // { title: "Login", href: "/login" },
 ];
 
 const HeaderTabs = () => {
@@ -75,9 +74,6 @@ const HeaderTabs = () => {
       >
         Login
       </MuiLink>
-      {/*<button className="text-white bg-[#68847c] px-6 py-1 rounded-md hover:bg-[#5F9EA0]">*/}
-      {/*  Login*/}
-      {/*</button>*/}
     </Box>
   );
 };
