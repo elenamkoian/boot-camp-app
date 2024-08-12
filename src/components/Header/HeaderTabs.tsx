@@ -19,7 +19,8 @@ const HeaderTabs = () => {
   };
 
   return (
-    <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between", width: "100%" }}>
+    // <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between", width: "100%" }}>
+    <>
       <Box
         sx={{
           display: "flex",
@@ -74,7 +75,8 @@ const HeaderTabs = () => {
       >
         Login
       </MuiLink>
-    </Box>
+      </>
+    // </Box>
   );
 };
 

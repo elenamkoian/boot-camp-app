@@ -9,8 +9,14 @@ const Header = () => {
         style={{ fill: "#68847c" }}
         sx={{ "&.MuiSvgIcon-root": { fontSize: "48px" } }}
       />
-      <HeaderTabs />
-      <div>
+      <div className="flex items-center justify-between w-full laptop:flex mobile:hidden">
+        {/*display: "flex", alignItems: "center", justifyContent: "space-between", width: "100%">*/}
+        <HeaderTabs />
+      </div>
+      {/*<div className="flex items-center cursor-pointer lg:hidden">*/}
+      {/*  <HamburgerSelect />*/}
+      {/*</div>*/}
+      <div className="items-center cursor-pointer mobile:flex laptop:hidden">
         <MoreButton />
       </div>
     </div>

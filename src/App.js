@@ -18,19 +18,19 @@ function App() {
           element: <Navigate to="/home" replace />,
         },
         {
-          path: '/home/',
+          path: '/home',
           element: <Home />,
         },
         {
-          path: '/about/',
+          path: '/about',
           element: <About />,
         },
         {
-          path: '/contact/',
+          path: '/contact',
           element: <Contact />,
         },
         {
-          path: '/login/',
+          path: '/login',
           element: <Login />,
         },
       ],
